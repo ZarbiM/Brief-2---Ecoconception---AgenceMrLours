@@ -23,7 +23,7 @@ jobs:
         with:
           url: 'https://api.ecoindex.fr/v1/tasks/ecoindexes/'
           method: 'POST'
-          data: '{"web_page": {"width": 1920, "height": 1080, "url": "https://agence-lours.antoineguillo.com"}, "custom_headers": {"Accept": "application/json"}}'
+          data: '{"web_page": {"width": 1920, "height": 1080, "url": "https://agencelours-margot.surge.sh/"}, "custom_headers": {"Accept": "application/json"}}'
 
       # Délai d'attente pour laisser le temps à l'analyse de se faire
       - name: Sleep for 30 seconds
